@@ -1,7 +1,3 @@
-# relay_vless.py
-# بخش VLESS Relay — جدا شده از main.py (منطق اصلی دست‌نخورده)
-# تغییر: ثبت IP واقعی کلاینت (با احتساب هدر x-forwarded-for پشت پراکسی) در connections
-
 import asyncio
 import secrets
 from datetime import datetime
