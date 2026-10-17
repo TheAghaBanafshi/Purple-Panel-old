@@ -90,7 +90,7 @@ input:focus+.ic{color:var(--accent)}
       📱 پشتیبانی مستقیم: <a href="https://t.me/aghabanafshiipvbot" target="_blank" style="color:var(--accent2)">@aghabanafshiipvbot</a>
     </span>
     <span style="font-size:11px;color:var(--t3)">
-      <i class="ti ti-brand-telegram"></i> کانال: <a href="https://t.me/X4GHUB" target="_blank" style="color:var(--accent2)">@X4GHUB</a>
+      <i class="ti ti-brand-telegram"></i> کانال: <a href="https://t.me/X4GHUB" target="_blank" style="color:var(--accent2)">@AghaBanafshi</a>
     </span>
   </div>
 </div>
@@ -1200,9 +1200,9 @@ a{color:inherit;text-decoration:none}
       </div>
     </div>
     <div class="srv-tiles">
-      <a class="srv-tile" href="https://www.youtube.com/@X4GHUB" target="_blank" style="text-decoration:none;cursor:pointer">
+      <a class="srv-tile" href="https://www.youtube.com/@AghaBanafshi" target="_blank" style="text-decoration:none;cursor:pointer">
         <div class="srv-tile-icon"><i class="ti ti-brand-youtube"></i></div>
-        <div class="srv-tile-text"><div class="srv-tile-label">یوتیوب</div><div class="srv-tile-val">youtube.com/@X4GHUB</div></div>
+        <div class="srv-tile-text"><div class="srv-tile-label">یوتیوب</div><div class="srv-tile-val">youtube.com/@AghaBanafshi</div></div>
       </a>
       <a class="srv-tile" href="https://t.me/x4g_group" target="_blank" style="text-decoration:none;cursor:pointer">
         <div class="srv-tile-icon"><i class="ti ti-users-group"></i></div>
@@ -2081,7 +2081,7 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
   <div class="footer">
     <span>ساخته شده با ❤️ توسط <a href="https://github.com/arvin341az-glitch" target="_blank">@arvin341az-glitch</a></span>
     <div class="credit">کاستوم‌سازی: <a href="https://t.me/AghaBanafshi" target="_blank">@AghaBanafshi</a></div>
-    <span>پشتیبانی: <a href="https://t.me/X4GHUB" target="_blank">@X4GHUB</a> · Purple-Panel v1.0</span>
+    <span>پشتیبانی: <a href="https://t.me/X4GHUB" target="_blank">@AghaBanafshi</a> · Purple-Panel v1.0</span>
   </div>
 </div>
 <script>
