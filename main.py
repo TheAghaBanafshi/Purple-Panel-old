@@ -23,12 +23,12 @@ logger = logging.getLogger("PurplePanel")
 
 IRAN_TZ = ZoneInfo("Asia/Tehran")
 
-app = FastAPI(title="X4G", docs_url=None, redoc_url=None)
+app = FastAPI(title="Purple-Panel", docs_url=None, redoc_url=None)
 
 # ── Persistence ───────────────────────────────────────────────────────────────
 DATA_DIR = Path(os.environ.get("DATA_DIR", "/data"))
-DATA_FILE = DATA_DIR / "x4g_state.json"
-SECRET_FILE = DATA_DIR / "x4g_secret.key"
+DATA_FILE = DATA_DIR / "Purple-Panel_state.json"
+SECRET_FILE = DATA_DIR / "Purple-Panel_secret.key"
 SAVE_LOCK = asyncio.Lock()
 
 def _load_or_create_secret() -> str:
@@ -154,7 +154,7 @@ def log_activity(kind: str, message: str, level: str = "info"):
     })
 
 # ── Auth ──────────────────────────────────────────────────────────────────────
-SESSION_COOKIE = "x4g_session"
+SESSION_COOKIE = "Purple-Panel_session"
 SESSION_TTL = 60 * 60 * 24 * 365
 
 def hash_password(pw: str) -> str:
@@ -206,7 +206,7 @@ async def startup():
     await load_state()
     await _tg_start_bot()
     log_activity("system", "سرور راه‌اندازی شد", "ok")
-    logger.info(f"X4G v9.8 started on port {CONFIG['port']}")
+    logger.info(f"Purple-Panel v9.8 started on port {CONFIG['port']}")
 
 @app.on_event("shutdown")
 async def shutdown():
@@ -239,7 +239,7 @@ def now_ir() -> datetime:
 def generate_vless_link(
     uuid: str,
     host: str,
-    remark: str = "X4G",
+    remark: str = "Purple-Panel",
     protocol: str = DEFAULT_PROTOCOL,
     fingerprint: str | None = None,
     alpn: str | None = None,
@@ -401,7 +401,7 @@ async def subscription_single(uuid: str, request: Request):
     vless = vless_link_for_link(link, uuid, host)
     content = base64.b64encode(vless.encode()).decode()
     return Response(content=content, media_type="text/plain",
-                    headers={"profile-title": quote(link["label"]), "support-url": "https://t.me/X4GHUB"})
+                    headers={"profile-title": quote(link["label"]), "support-url": "https://t.me/Purple-PanelHUB"})
 
 @app.get("/sub-all")
 async def subscription_all(request: Request, _=Depends(require_auth)):
