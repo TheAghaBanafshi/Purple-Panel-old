@@ -1,6 +1,8 @@
-# 🟣 Purple Panel
-
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/AghaBanafshi-2/Reponew/refs/heads/main/file_0000000095f08210bd7aec2e59f00378.png" alt="Purple Panel Logo" width="150"/>
+
+# 🟣 Purple Panel
 
 **پنل مدیریتی ساخت کانفیگ پرسرعت V2ray**
 
@@ -129,6 +131,8 @@ https://purple-panel-production-a45r.up.railway.app/login
 ---
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/AghaBanafshi-2/Reponew/refs/heads/main/file_0000000095f08210bd7aec2e59f00378.png" alt="Purple Panel Logo" width="80"/>
 
 **⭐ اگر این پروژه برایتان مفید بود، یک ستاره به آن بدهید!**
 
