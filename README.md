@@ -44,7 +44,7 @@
 ۶. در کادر بالا، آدرس زیر را وارد کنید:
 
 ```
-https://github.com/TheAghaBanafshi/Purple-Panel
+github.com/TheAghaBanafshi/Purple-Panel
 ```
 
 ۷. روی **Deploy Repo** کلیک کنید تا پنل نصب شود.
